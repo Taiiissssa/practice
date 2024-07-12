@@ -81,6 +81,7 @@ color: #080c16;
     display: flex;
     margin-top: 60px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .basic-container{
     display: flex;
@@ -146,12 +147,13 @@ position: relative;
     border: 1px solid #00ad6a;
     background-color: #1fe374;
     padding: 8px 10px;
-    color:#080c16;
+    color:#080c168d;
     transition: transform 250ms cubic-bezier(0.39, 0.575, 0.565, 1),
         box-shadow 250ms cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 .button-sign:hover {
     box-shadow: -5px -5px 0px 0px #1fe374;
+    color: #080c16;
 }
 .text-business{
     padding-top: 10px;
@@ -164,11 +166,50 @@ position: relative;
 .bullet-point{
     position: relative;
     font-weight: 400;
-    color:#080c16
+    color:#080c16;
+    padding-right: 10px;
 }
 .bullet-point::before{
     content:"✓";
     position: absolute;
     top:1px;
     left: -16px;
+}
+.premium{
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        line-height: 1.5;
+        font-weight: 300;
+        letter-spacing: 0.02em;
+        width: 375px;
+        margin-left: 30px;
+        border: 2px solid #00ad6a;
+        background-color: #fcfcfc;
+        box-sizing: border-box;
+        flex-shrink: 0;
+        justify-content: center;
+        height: 400px;
+        margin-top: auto;
+        margin-bottom: auto;
+        position: relative;
+}
+.premium::before{
+    content: "Complex business with multiple financial accounts, currencies, or auditing needs?";
+    position: absolute;
+    top: -70px;
+    text-align: center;
+    background-color:#d6dae579 ;
+    padding-bottom: 9px;
+    padding-top: 10px;
+    overflow: hidden;
+}
+.extra-feat{
+    font-weight: 400;
+    padding-top: 10px;
+    color:#00ad6a;
+    margin-bottom: 0;
+}
+.business-price {
+    margin-top: 5px;
 }
