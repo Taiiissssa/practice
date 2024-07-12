@@ -200,13 +200,13 @@ position: relative;
     top: -70px;
     text-align: center;
     background-color:#d6dae579 ;
-    padding-bottom: 9px;
+    padding-bottom: 11px;
     padding-top: 10px;
     overflow: hidden;
 }
 .extra-feat{
     font-weight: 400;
-    padding-top: 10px;
+    padding-top: 5px;
     color:#00ad6a;
     margin-bottom: 0;
 }
